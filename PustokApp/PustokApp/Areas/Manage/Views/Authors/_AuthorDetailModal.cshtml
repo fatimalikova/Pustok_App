@@ -1,0 +1,98 @@
+@model PustokApp.Models.Author
+
+<div class="modal-header">
+    <h5 class="modal-title" id="authorDetailModalLabel">Author Details - @Model.FullName</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <div class="row">
+      
+        <div class="col-md-8">
+            <div class="mb-3">
+                <label class="font-weight-bold">Full Name:</label>
+                <p>@Model.FullName</p>
+            </div>
+
+            <div class="mb-3">
+                <label class="font-weight-bold">Author ID:</label>
+                <p>@Model.Id</p>
+            </div>
+
+            <div class="mb-3">
+                <label class="font-weight-bold">Image URL:</label>
+                <p>
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                    {
+                        <a href="@Model.ImageUrl" target="_blank" class="text-break">@Model.ImageUrl</a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">N/A</span>
+                    }
+                </p>
+            </div>
+
+            <div class="mb-3">
+                <label class="font-weight-bold">Total Books:</label>
+                <p>
+                    @if (Model.Books != null)
+                    {
+                        <span class="badge badge-primary">@Model.Books.Count</span>
+                    }
+                    else
+                    {
+                        <span class="badge badge-secondary">0</span>
+                    }
+                </p>
+            </div>
+        </div>
+    </div>
+
+    @if (Model.Books != null && Model.Books.Count > 0)
+    {
+        <div class="mt-4">
+            <h6 class="font-weight-bold text-primary">Books by This Author</h6>
+            <div class="table-responsive">
+                <table class="table table-sm table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Book Name</th>
+                            <th>Price</th>
+                            <th>In Stock</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var book in Model.Books)
+                        {
+                            <tr>
+                                <td>@book.Name</td>
+                                <td>@book.Price.ToString("C")</td>
+                                <td>
+                                    @if (book.InStock)
+                                    {
+                                        <span class="badge badge-success">Yes</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge badge-danger">No</span>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info mt-3">
+            <i class="fas fa-info-circle"></i> This author has no books yet.
+        </div>
+    }
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>

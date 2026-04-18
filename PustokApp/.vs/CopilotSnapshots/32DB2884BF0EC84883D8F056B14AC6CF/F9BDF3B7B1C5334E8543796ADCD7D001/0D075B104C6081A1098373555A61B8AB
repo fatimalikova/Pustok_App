@@ -1,0 +1,27 @@
+﻿@model List<PustokApp.Models.Author>
+
+@{
+    ViewData["Title"] = "Admin - Authors";
+}
+
+<h1>Authors</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Author ID</th>
+            <th>Name</th>
+            <th>Image URL</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var author in Model)
+        {
+            <tr>
+                <td>@author.Id</td>
+                <td>@author.FullName</td>
+                <td>@author.ImageUrl</td>
+            </tr>
+        }
+    </tbody>
+</table>

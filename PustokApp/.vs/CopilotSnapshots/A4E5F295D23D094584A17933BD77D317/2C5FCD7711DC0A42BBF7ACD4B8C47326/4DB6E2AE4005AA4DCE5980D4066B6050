@@ -1,0 +1,121 @@
+﻿@model List<PustokApp.Models.Slider>
+@{
+    ViewData["Title"] = "Sliders";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Sliders</h1>
+        <a href="@Url.Action("Create")" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+            <i class="fas fa-plus fa-sm text-white-50"></i> Create
+        </a>
+    </div>
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Sliders List</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Image</th>
+                            <th>Button Text</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Count > 0)
+                        {
+                            @foreach (var slider in Model)
+                            {
+                                <tr id="row-@slider.Id">
+                                    <td>@slider.Id</td>
+                                    <td>@slider.Title</td>
+                                    <td>@(slider.Description?.Length > 50 ? slider.Description.Substring(0, 50) + "..." : slider.Description)</td>
+                                    <td>
+                                        @if (!string.IsNullOrEmpty(slider.ImageUrl))
+                                        {
+                                            <img src="@slider.ImageUrl" alt="@slider.Title" style="max-width: 50px; max-height: 50px;">
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">No Image</span>
+                                        }
+                                    </td>
+                                    <td>@slider.ButtonText</td>
+                                    <td>
+                                        <a href="@Url.Action("Edit", new { id = slider.Id })" class="btn btn-sm btn-warning">Edit</a>
+                                        <button type="button" class="btn btn-sm btn-danger deleteBtn" data-id="@slider.Id" data-title="@slider.Title">Delete</button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6" class="text-center text-muted">No sliders found</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    document.querySelectorAll('.deleteBtn').forEach(button => {
+        button.addEventListener('click', function() {
+            const sliderId = this.getAttribute('data-id');
+            const sliderTitle = this.getAttribute('data-title');
+
+            Swal.fire({
+                title: 'Are you sure?',
+                text: `You are about to delete "${sliderTitle}". This action cannot be undone!`,
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#dc3545',
+                cancelButtonColor: '#6c757d',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    fetch(`/Manage/Sliders/Delete/${sliderId}`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        }
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            Swal.fire(
+                                'Deleted!',
+                                `"${sliderTitle}" has been deleted successfully.`,
+                                'success'
+                            ).then(() => {
+                                const row = document.getElementById(`row-${sliderId}`);
+                                if (row) {
+                                    row.remove();
+                                }
+                                setTimeout(() => {
+                                    location.reload();
+                                }, 1000);
+                            });
+                        } else {
+                            Swal.fire('Error!', 'Failed to delete slider.', 'error');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        Swal.fire('Error!', 'An error occurred.', 'error');
+                    });
+                }
+            });
+        });
+    });
+</script>

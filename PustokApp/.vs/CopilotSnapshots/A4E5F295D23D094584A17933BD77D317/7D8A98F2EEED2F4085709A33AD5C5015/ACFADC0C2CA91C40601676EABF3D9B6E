@@ -1,0 +1,33 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using PustokApp.Data;
+using PustokApp.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace PustokApp.Areas.Manage.Controllers
+{
+    [Area("Manage")]
+    public class AuthorsController : Controller
+    {
+        private readonly PustokAppDbContext _context;
+
+        public AuthorsController(PustokAppDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var authors = await _context.Authors.Include(a => a.Books).ToListAsync();
+            return View(authors);
+        }
+
+        public IActionResult Delete(Guid id)
+        {
+            var author = _context.Authors.Find(id);
+            if (author == null) return NotFound();
+            _context.Authors.Remove(author);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+    }
+}

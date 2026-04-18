@@ -1,0 +1,24 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using PustokApp.Data;
+using PustokApp.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace PustokApp.Areas.Manage.Controllers
+{
+    [Area("Manage")]
+    public class SlidersController : Controller
+    {
+        private readonly PustokAppDbContext _context;
+
+        public SlidersController(PustokAppDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var sliders = await _context.Sliders.ToListAsync();
+            return View(sliders);
+        }
+    }
+}

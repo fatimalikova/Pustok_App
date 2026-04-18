@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+8+nbAK3rAc=",
+  "dgSpecHash": "IfceAm2Jkgw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\PustokApp.csproj",
+  "projectFilePath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\PustokApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fmeli\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\fmeli\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

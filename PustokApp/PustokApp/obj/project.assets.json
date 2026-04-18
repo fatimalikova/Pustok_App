@@ -7794,11 +7794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\PustokApp.csproj",
+      "projectUniqueName": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\PustokApp.csproj",
       "projectName": "PustokApp",
-      "projectPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\PustokApp.csproj",
+      "projectPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\PustokApp.csproj",
       "packagesPath": "C:\\Users\\fmeli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\obj\\",
+      "outputPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -19,97 +19,101 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v9.0
 build_property.RootNamespace = PustokApp
 build_property.RootNamespace = PustokApp
-build_property.ProjectDir = C:\Users\fmeli\OneDrive\Desktop\Fatima\PustokApp\PustokApp\
+build_property.ProjectDir = C:\Users\fmeli\OneDrive\Desktop\Pustok_App\PustokApp\PustokApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\fmeli\OneDrive\Desktop\Fatima\PustokApp\PustokApp
+build_property.MSBuildProjectDirectory = C:\Users\fmeli\OneDrive\Desktop\Pustok_App\PustokApp\PustokApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/Admin/Index.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/Authors/Details.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/Authors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEF1dGhvcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/Authors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEF1dGhvcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/Authors/Index.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/Authors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEF1dGhvcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/Authors/_AuthorDetailModal.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/Authors/_AuthorDetailModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEF1dGhvcnNcX0F1dGhvckRldGFpbE1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/Dashboard/Index.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNoYXJlZFxfQWRtaW5MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/Sliders/Create.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/Sliders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNsaWRlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/Sliders/Edit.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/Sliders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNsaWRlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/Sliders/Index.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/Sliders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNsaWRlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/_ViewImports.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Areas/Manage/Views/_ViewStart.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Areas/Manage/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Views/Books/Detail.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Views/Books/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Views/Home/Index.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Views/Home/Privacy.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Views/Shared/Error.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Views/Shared/_BookModalPartialView.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Views/Shared/_BookModalPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb29rTW9kYWxQYXJ0aWFsVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Views/Shared/_BooksPartialView.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Views/Shared/_BooksPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb29rc1BhcnRpYWxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Views/_ViewImports.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Views/_ViewStart.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmeli/OneDrive/Desktop/Fatima/PustokApp/PustokApp/Views/Shared/_Layout.cshtml]
+[C:/Users/fmeli/OneDrive/Desktop/Pustok_App/PustokApp/PustokApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qvlwcngp0i

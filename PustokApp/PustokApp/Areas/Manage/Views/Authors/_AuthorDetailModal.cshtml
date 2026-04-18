@@ -20,19 +20,7 @@
                 <p>@Model.Id</p>
             </div>
 
-            <div class="mb-3">
-                <label class="font-weight-bold">Image URL:</label>
-                <p>
-                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
-                    {
-                        <a href="@Model.ImageUrl" target="_blank" class="text-break">@Model.ImageUrl</a>
-                    }
-                    else
-                    {
-                        <span class="text-muted">N/A</span>
-                    }
-                </p>
-            </div>
+          
 
             <div class="mb-3">
                 <label class="font-weight-bold">Total Books:</label>

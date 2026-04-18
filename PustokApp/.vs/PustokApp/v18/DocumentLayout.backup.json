@@ -1,62 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\",
+  "WorkspaceRootPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\views\\sliders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\sliders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\authors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\authors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\controllers\\sliderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\controllers\\sliderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\views\\authors\\_authordetailmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\authors\\_authordetailmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\authors\\_authordetailmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\authors\\_authordetailmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\sliders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\sliders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\views\\sliders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\sliders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\sliders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\fatima\\pustokapp\\pustokapp\\areas\\manage\\views\\sliders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\sliders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\controllers\\sliderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\controllers\\sliderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\sliders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\sliders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 311,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,24 +86,89 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\Create.cshtml",
+              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Authors\\Create.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\Create.cshtml*",
+              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Authors\\Create.cshtml*",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAwwF0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T20:37:25.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwDYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T08:41:11.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "PustokApp\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Models\\Author.cs",
+              "RelativeToolTip": "PustokApp\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T08:48:21.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_AuthorDetailModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\_AuthorDetailModal.cshtml",
+              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Authors\\_AuthorDetailModal.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\_AuthorDetailModal.cshtml",
+              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Authors\\_AuthorDetailModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T10:27:15.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml",
+              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml",
+              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T09:20:18.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SlidersController.cs",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\SlidersController.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\SlidersController.cs",
               "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Controllers\\SlidersController.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\SlidersController.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\SlidersController.cs",
               "RelativeToolTip": "PustokApp\\Areas\\Manage\\Controllers\\SlidersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T10:40:18.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Edit.cshtml",
               "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Edit.cshtml",
               "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -116,11 +177,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Create.cshtml",
               "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Create.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Create.cshtml",
               "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -129,128 +190,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_AuthorDetailModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\_AuthorDetailModal.cshtml",
-              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Authors\\_AuthorDetailModal.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\_AuthorDetailModal.cshtml",
-              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Authors\\_AuthorDetailModal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T10:27:15.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\Index.cshtml",
               "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Authors\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\Index.cshtml",
               "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Authors\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T08:38:37.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml",
-              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml*",
-              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T09:20:18.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthorsController.cs",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\AuthorsController.cs",
-              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Controllers\\AuthorsController.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\AuthorsController.cs",
-              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Controllers\\AuthorsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwBcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T08:41:11.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\Details.cshtml",
-              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Authors\\Details.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\Details.cshtml",
-              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Authors\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T10:20:35.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAKgBAAAAAAAAAAAqwLkBAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T08:43:18.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T09:25:47.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T09:05:56.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T08:38:37.3Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Author.cs",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Models\\Author.cs",
-              "RelativeDocumentMoniker": "PustokApp\\Models\\Author.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Models\\Author.cs",
-              "RelativeToolTip": "PustokApp\\Models\\Author.cs",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T08:48:21.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T09:25:47.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T09:05:56.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -258,11 +238,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Admin\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Fatima\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

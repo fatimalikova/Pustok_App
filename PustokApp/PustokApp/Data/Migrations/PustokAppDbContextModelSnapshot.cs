@@ -17,7 +17,7 @@ namespace PustokApp.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.0")
+                .HasAnnotation("ProductVersion", "9.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -33,9 +33,6 @@ namespace PustokApp.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
 
                     b.ToTable("Authors");
@@ -44,20 +41,17 @@ namespace PustokApp.Data.Migrations
                         new
                         {
                             Id = new Guid("11111111-1111-1111-1111-111111111111"),
-                            FullName = "George Orwell",
-                            ImageUrl = "assets/image/products/product-1.jpg"
+                            FullName = "George Orwell"
                         },
                         new
                         {
                             Id = new Guid("22222222-2222-2222-2222-222222222222"),
-                            FullName = "Jane Austen",
-                            ImageUrl = "assets/image/products/product-2.jpg"
+                            FullName = "Jane Austen"
                         },
                         new
                         {
                             Id = new Guid("33333333-3333-3333-3333-333333333333"),
-                            FullName = "Mark Twain",
-                            ImageUrl = "assets/image/products/product-3.jpg"
+                            FullName = "Mark Twain"
                         });
                 });
 

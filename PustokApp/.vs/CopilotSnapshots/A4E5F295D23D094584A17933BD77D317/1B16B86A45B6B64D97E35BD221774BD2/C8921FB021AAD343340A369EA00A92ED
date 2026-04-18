@@ -1,0 +1,174 @@
+﻿@model PustokApp.Models.Author
+@{
+    ViewData["Title"] = "Create Author";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Create Author</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 bg-primary">
+                    <h6 class="m-0 font-weight-bold text-white">Author Information</h6>
+                </div>
+                <div class="card-body">
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>Please correct the following errors:</strong>
+                            <ul class="mb-0 mt-2">
+                                @foreach (var modelState in ViewData.ModelState.Values)
+                                {
+                                    @foreach (var error in modelState.Errors)
+                                    {
+                                        <li>@error.ErrorMessage</li>
+                                    }
+                                }
+                            </ul>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    }
+
+                    <form method="post" action="/Manage/Authors/Create">
+                        <input type="hidden" name="__RequestVerificationToken" value="@Html.AntiForgeryToken()" />
+
+                        <div class="form-group">
+                            <label for="fullName" class="font-weight-bold">Full Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="fullName" name="FullName" placeholder="Enter author full name" value="@Model?.FullName">
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                            <small class="form-text text-muted">Enter the complete name of the author</small>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-save"></i> Create Author
+                            </button>
+                            <a href="/Manage/Authors/Index" class="btn btn-secondary btn-lg">
+                                <i class="fas fa-times"></i> Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow mb-4 bg-light">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Guidelines</h6>
+                </div>
+                <div class="card-body">
+                    <h6 class="text-primary">
+                        <i class="fas fa-info-circle"></i> Required Fields:
+                    </h6>
+                    <ul class="small">
+                        <li><strong>Full Name</strong> - Author's complete name (required)</li>
+                    </ul>
+
+                    <h6 class="text-primary mt-3">
+                        <i class="fas fa-lightbulb"></i> Tips:
+                    </h6>
+                    <ul class="small">
+                        <li>Use the author's full name</li>
+                        <li>Avoid special characters</li>
+                        <li>Each author must have a unique name</li>
+                        <li>You can add books later</li>
+                    </ul>
+
+                    <div class="alert alert-success small mt-3" role="alert">
+                        <i class="fas fa-check-circle"></i> 
+                        <strong>Ready to create?</strong>
+                        <p class="mb-0 mt-2">Fill in the form and click "Create Author" to add a new author to the system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .form-control {
+        border-radius: 0.35rem;
+        border: 1px solid #e3e6f0;
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    .form-control:focus {
+        border-color: #80bdff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        color: #495057;
+    }
+
+    .form-control::placeholder {
+        color: #6c757d;
+        opacity: 0.7;
+    }
+
+    .btn {
+        border-radius: 0.35rem;
+        font-weight: 600;
+        margin-right: 0.5rem;
+        padding: 0.5rem 1.5rem;
+        transition: all 0.15s ease-in-out;
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+    .btn-secondary:hover {
+        background-color: #545b62;
+        border-color: #4e555b;
+    }
+
+    .text-danger {
+        color: #dc3545;
+    }
+
+    .card {
+        border-radius: 0.35rem;
+        border: 1px solid #e3e6f0;
+    }
+
+    .card-header {
+        border-radius: 0.35rem 0.35rem 0 0;
+    }
+
+    .form-group label {
+        margin-bottom: 0.5rem;
+        font-size: 0.95rem;
+    }
+
+    .form-text {
+        display: block;
+        margin-top: 0.25rem;
+    }
+
+    .alert {
+        border-radius: 0.35rem;
+        border: none;
+    }
+</style>

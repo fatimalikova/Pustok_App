@@ -46,13 +46,19 @@ namespace PustokApp.Areas.Manage.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Author author)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid) //validation check by model state
             {
-                _context.Add(author);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return View(author);
             }
-            return View(author);
+            Author newAuthor = new Author
+            {
+                Id = Guid.NewGuid(),
+                FullName = author.FullName
+            };
+            _context.Authors.Add(newAuthor);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
+
         }
 
         public async Task<IActionResult> Edit(Guid? id)

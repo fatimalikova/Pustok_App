@@ -1,0 +1,13 @@
+﻿using PustokApp.Models.Common;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace PustokApp.Models
+{
+    public class Author : BaseEntity
+    {
+        [Required(ErrorMessage = "Full Name is required")]
+        public string FullName { get; set; } 
+        public List<Book> Books { get; set; }
+    }
+}

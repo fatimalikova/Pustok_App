@@ -1,12 +1,14 @@
 ﻿using PustokApp.Models.Common;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace PustokApp.Models
 {
     public class Author : BaseEntity
     {
+        [Required]
+        [MaxLength(25)]
         public string FullName { get; set; } 
-        public string ImageUrl { get; set; }
         public List<Book> Books { get; set; }
     }
 }

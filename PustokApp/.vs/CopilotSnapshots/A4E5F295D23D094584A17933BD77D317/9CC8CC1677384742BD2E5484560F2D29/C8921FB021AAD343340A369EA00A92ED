@@ -1,0 +1,73 @@
+﻿@model Author
+@{
+    ViewData["Title"] = "Create Author";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Create Author</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 bg-primary">
+                    <h6 class="m-0 font-weight-bold text-white">Author Information</h6>
+                </div>
+                <div class="card-body">
+                    <form method="post" action="/Manage/Authors/Create">
+                        <div class="form-group">
+                            <label for="fullName" class="font-weight-bold">Full Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="fullName" name="FullName" placeholder="Enter author full name" value="">
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                            <small class="form-text text-muted">Enter the complete name of the author</small>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-save"></i> Create Author
+                            </button>
+                            <a href="/Manage/Authors/Index" class="btn btn-secondary btn-lg">
+                                <i class="fas fa-times"></i> Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow mb-4 bg-light">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Guidelines</h6>
+                </div>
+                <div class="card-body">
+                    <h6 class="text-primary">Required Fields:</h6>
+                    <ul class="small">
+                        <li><strong>Full Name</strong> - Author's complete name</li>
+                    </ul>
+
+                  
+
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .btn {
+        border-radius: 0.35rem;
+        font-weight: 600;
+        margin-right: 0.5rem;
+    }
+
+    .text-danger {
+        color: #dc3545;
+    }
+
+    .card {
+        border-radius: 0.35rem;
+    }
+</style>

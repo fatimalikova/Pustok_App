@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Http;
 
 namespace PustokApp.Models
 {
@@ -12,7 +13,7 @@ namespace PustokApp.Models
         public string Description { get; set; } 
         public string ButtonText { get; set; } 
         public string ButtonUrl { get; set; }
-        [NotMapped]
+        [NotMapped] // Bu property db-de saklanmaz, sadece dosya yükleme işlemi için kullanılır
         public IFormFile File { get; set; }
     }
 }

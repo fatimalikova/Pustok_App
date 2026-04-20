@@ -13,7 +13,7 @@
             <h6 class="m-0 font-weight-bold text-primary">Slider Information</h6>
         </div>
         <div class="card-body">
-            <form method="post">
+            <form method="post" enctype="multipart/form-data">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                 <div class="form-group">
@@ -29,9 +29,9 @@
                 </div>
 
                 <div class="form-group">
-                    <label asp-for="ImageUrl" class="control-label">Image URL</label>
-                    <input asp-for="ImageUrl" class="form-control" />
-                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                    <label asp-for="File" class="control-label">Image (File)</label>
+                    <input asp-for="File" class="form-control" type="file" />
+                    <span asp-validation-for="File" class="text-danger"></span>
                 </div>
 
                 <div class="form-group">

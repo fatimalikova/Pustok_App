@@ -2,13 +2,23 @@ using Microsoft.AspNetCore.Mvc;
 using PustokApp.Data;
 using PustokApp.Models;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace PustokApp.Areas.Manage.Controllers
 {
     [Area("Manage")]
-    public class SlidersController(PustokAppDbContext _context) : Controller
+    public class SlidersController : Controller
     {
-        
+        private readonly PustokAppDbContext _context;
+
+        public SlidersController(PustokAppDbContext context)
+        {
+            _context = context;
+        }
+
         public async Task<IActionResult> Index()
         {
             var sliders = await _context.Sliders.ToListAsync();
@@ -24,13 +34,42 @@ namespace PustokApp.Areas.Manage.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Slider slider)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                _context.Add(slider);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return View(slider);
             }
-            return View(slider);
+            var file =slider.File;
+            if (!file.ContentType.Contains("image/"))
+            {
+                ModelState.AddModelError("File", "Please select a valid image file.");
+                return View(slider);
+            }
+            if(file.Length > 2 * 1024 * 1024)
+            {
+                ModelState.AddModelError("File", "File size must be less than 2MB.");
+                return View(slider);
+            }
+            string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName); //unique file name
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/assets/image/bg-images", fileName);
+
+            using (var stream = new FileStream(path, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+            //slider.ImageUrl = "/assets/images/bg-images/" + fileName;
+
+            var newSlider = new Slider
+            {
+                Title = slider.Title,
+                Description = slider.Description,
+                ButtonText = slider.ButtonText,
+                ButtonUrl = slider.ButtonUrl,
+                ImageUrl = fileName
+
+            };
+            _context.Sliders.Add(newSlider);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> Edit(int? id)
@@ -40,7 +79,7 @@ namespace PustokApp.Areas.Manage.Controllers
                 return NotFound();
             }
 
-            var slider = await _context.Sliders.FindAsync(id);
+            var slider = await _context.Sliders.FindAsync(id.Value);
             if (slider == null)
             {
                 return NotFound();
@@ -50,68 +89,64 @@ namespace PustokApp.Areas.Manage.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Slider slider)
+        public async Task<IActionResult> Edit( Slider slider)
         {
-            if (id != slider.Id)
+
+            if (!ModelState.IsValid)
+            {
+                return View(slider);
+            }
+            var existSlider = await _context.Sliders.FindAsync(slider.Id);
+            if (existSlider == null)
             {
                 return NotFound();
             }
-
-            if (ModelState.IsValid)
+            //check if another slider with the same name already exists
+            if (_context.Sliders.Any(s => s.Title.ToLower() == slider.Title.ToLower() && s.Id != slider.Id))
             {
-                try
-                {
-                    _context.Update(slider);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!SliderExists(slider.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                ModelState.AddModelError("Title", "A slider with the same title already exists.");
+                return View(slider);
             }
-            return View(slider);
+
+            existSlider.Title = slider.Title;
+            existSlider.Description = slider.Description;
+            existSlider.ButtonText = slider.ButtonText;
+            existSlider.ButtonUrl = slider.ButtonUrl;
+            _context.Sliders.Update(existSlider);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
         }
 
+
+
+        // GET: Manage/Sliders/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
-            var slider = await _context.Sliders.FindAsync(id);
+            var slider = await _context.Sliders.FindAsync(id.Value);
             if (slider == null)
-            {
                 return NotFound();
-            }
 
             return View(slider);
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
             var slider = await _context.Sliders.FindAsync(id);
-            if (slider != null)
+            if (slider == null)
             {
-                _context.Sliders.Remove(slider);
-                await _context.SaveChangesAsync();
-                return Ok();
+                TempData["Error"] = "Requested slider was not found.";
+                return RedirectToAction(nameof(Index));
             }
-            return NotFound();
+
+            _context.Sliders.Remove(slider);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
-        private bool SliderExists(int id)
-        {
-            return _context.Sliders.Any(e => e.Id == id);
-        }
     }
 }

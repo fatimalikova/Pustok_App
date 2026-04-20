@@ -25,7 +25,13 @@ wwwroot\assets\fonts\Ionicons28b5.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.ttf
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff2
+wwwroot\assets\images\bg-images\2aa20ad8-12f3-430b-8a26-8b680e89703a.png
+wwwroot\assets\images\bg-images\2bb653e0-c8f6-405b-bed5-f4dcb1d897d3.png
+wwwroot\assets\images\bg-images\417e3c1e-fb01-4319-bea9-3ee8dba5e419.png
+wwwroot\assets\images\bg-images\bb2f48a4-cfaa-45b2-9794-e661b7457767.png
+wwwroot\assets\image\bg-images\90db1ed8-e70b-480f-bea6-5fb2bf10b838.png
 wwwroot\assets\image\bg-images\best-seller-bg.jpg
+wwwroot\assets\image\bg-images\bfdac2e4-5687-4b1b-b267-0c0a2b8c6dfd.png
 wwwroot\assets\image\bg-images\home-2-slider-1.jpg
 wwwroot\assets\image\bg-images\home-2-slider-2.jpg
 wwwroot\assets\image\bg-images\home-3-slider-1.jpg

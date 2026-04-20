@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\sliders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\sliders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\authors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\authors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\views\\sliders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\views\\sliders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\areas\\manage\\controllers\\sliderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\areas\\manage\\controllers\\sliderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|c:\\users\\fmeli\\onedrive\\desktop\\pustok_app\\pustokapp\\pustokapp\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE417FF1-A769-4A77-A05D-FCB83C13C36A}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 311,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Slider.cs",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Models\\Slider.cs",
-              "RelativeDocumentMoniker": "PustokApp\\Models\\Slider.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Models\\Slider.cs",
-              "RelativeToolTip": "PustokApp\\Models\\Slider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T19:44:12.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Authors\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Authors\\Edit.cshtml",
-              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Authors\\Edit.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAcwEAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-20T19:34:59.01Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -65,6 +47,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml",
+              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml",
+              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T20:59:47.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SlidersController.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\SlidersController.cs",
+              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Controllers\\SlidersController.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\SlidersController.cs",
+              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Controllers\\SlidersController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwFsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T19:54:26.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Sliders\\Edit.cshtml",
+              "RelativeToolTip": "PustokApp\\Areas\\Manage\\Views\\Sliders\\Edit.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T20:56:44.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Models\\Slider.cs",
+              "RelativeDocumentMoniker": "PustokApp\\Models\\Slider.cs",
+              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\Pustok_App\\PustokApp\\PustokApp\\Models\\Slider.cs",
+              "RelativeToolTip": "PustokApp\\Models\\Slider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T20:53:45.449Z",
+              "EditorCaption": ""
             }
           ]
         }

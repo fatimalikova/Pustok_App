@@ -50,6 +50,13 @@ namespace PustokApp.Areas.Manage.Controllers
             {
                 return View(author);
             }
+            //check if author with the same name already exists
+            if (_context.Authors.Any(a => a.FullName.ToLower() == author.FullName.ToLower()))
+            {
+                ModelState.AddModelError("FullName", "An author with the same name already exists.");
+                return View(author);
+            }
+
             Author newAuthor = new Author
             {
                 Id = Guid.NewGuid(),
@@ -61,52 +68,7 @@ namespace PustokApp.Areas.Manage.Controllers
 
         }
 
-        public async Task<IActionResult> Edit(Guid? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var author = await _context.Authors.FindAsync(id);
-            if (author == null)
-            {
-                return NotFound();
-            }
-            return View(author);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, Author author)
-        {
-            if (id != author.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(author);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!AuthorExists(author.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(author);
-        }
+       
 
         [HttpPost]
         public async Task<IActionResult> Delete(Guid id)
@@ -120,10 +82,45 @@ namespace PustokApp.Areas.Manage.Controllers
             }
             return NotFound();
         }
-
-        private bool AuthorExists(Guid id)
+        public IActionResult Edit(Guid? id)
         {
-            return _context.Authors.Any(e => e.Id == id);
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var author = _context.Authors.Find(id);
+            if (author == null)
+            {
+                return NotFound();
+            }
+            return View(author);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(Author author)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(author);
+            }
+            var existAuthor = await _context.Authors.FindAsync(author.Id);
+            if (existAuthor == null)
+            {
+                return NotFound();
+            }
+            //check if another author with the same name already exists
+            if (_context.Authors.Any(a => a.FullName.ToLower() == author.FullName.ToLower() && a.Id != author.Id))
+            {
+                ModelState.AddModelError("FullName", "An author with the same name already exists.");
+                return View(author);
+            }
+
+            existAuthor.FullName = author.FullName;
+            _context.Authors.Update(existAuthor);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
         }
     }
 }

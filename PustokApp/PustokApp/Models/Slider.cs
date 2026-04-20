@@ -1,12 +1,18 @@
-﻿namespace PustokApp.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace PustokApp.Models
 {
     public class Slider
     {
+        [Required]
         public int Id { get; set; }
         public string ImageUrl { get; set; } 
         public string Title { get; set; } 
         public string Description { get; set; } 
         public string ButtonText { get; set; } 
-        public string ButtonUrl { get; set; } 
+        public string ButtonUrl { get; set; }
+        [NotMapped]
+        public IFormFile File { get; set; }
     }
 }
